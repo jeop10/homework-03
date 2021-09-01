@@ -1,6 +1,6 @@
 ## API Design
 
-**Base Host**: example.com/api/v1/
+**Base Host**: example.com/api/v1
 
 All responses will be given in `JSON` format.
 
