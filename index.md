@@ -1,8 +1,33 @@
-## Welcome to GitHub Pages
+## API Design
 
-You can use the [editor on GitHub](https://github.com/jeop10/homework-03/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**Base Host**: example.com/api/v1/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+All responses will be given in `JSON` format.
+
+### [GET] /coffee
+
+This will return a paginated list with all items from the shop
+
+```json
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+```
 
 ### Markdown
 
