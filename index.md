@@ -29,6 +29,8 @@ This will return a paginated list with all items from the shop
 }
 ```
 
+----
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
